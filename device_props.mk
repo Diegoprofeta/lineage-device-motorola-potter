@@ -347,3 +347,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # Fast App Launch
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
+
+#Force Navbar
+PRODUCT_PROPERTY_OVERRIDES += \
+    qemu.hw.mainkeys=0
