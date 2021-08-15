@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_potter.mk
+    $(LOCAL_DIR)/stellar_potter.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_potter-user \
-    lineage_potter-userdebug \
-    lineage_potter-eng
+    stellar_potter-user \
+    stellar_potter-userdebug \
+    stellar_potter-eng
